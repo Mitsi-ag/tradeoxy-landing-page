@@ -5,9 +5,9 @@ export const sendNotification = async (email: string) => {
   try {
     const name = String(email || "Unknown").split("@")[0];
     await axios.post(
-      "https://discord.gg/2vRM6eZtCw/api/webhooks/1141548333840740522/ZkGTckAKJSDjin-gTdkUsLSbCzLdE2EzsH3_CGHNzNQih2ZgyqpkD8OnFOuCoZz6JLZ8",
+      "https://discord-user-notification.azurewebsites.net/api/discord-notification?code=eOqBqHK29G7HpKXzyXjrYfBEP2c5H19LArrluAEojbWXAzFur6TuFA==",
       {
-        content: `Early access user through website: ${email}`,
+        content: email,
 
       },
     );
