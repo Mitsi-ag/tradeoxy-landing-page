@@ -3,7 +3,7 @@ const Logo = () => {
     <img
       src="/assets/logo.png"
       loading="lazy"
-      className="w-auto cursor-pointer object-cover"
+      className="h-14 w-auto cursor-pointer object-cover"
     />
   );
 };

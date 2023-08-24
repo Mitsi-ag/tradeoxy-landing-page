@@ -105,7 +105,7 @@ const CourseCard = (props: {
           className="z-0 h-full w-full object-cover"
           loading="lazy"
         />
-        <div className="absolute bottom-0 left-1/2 z-10 w-[85%] -translate-x-1/2 translate-y-1/2 rounded-3xl bg-white px-5 py-2 drop-shadow">
+        {/* <div className="absolute bottom-0 left-1/2 z-10 w-[85%] -translate-x-1/2 translate-y-1/2 rounded-3xl bg-white px-5 py-2 drop-shadow">
           <div className="flex items-center gap-x-3">
             <div className="flex items-center justify-start">
               <img
@@ -131,18 +131,17 @@ const CourseCard = (props: {
             </div>
             <div className="inline-flex w-max items-start justify-start">
               <p className="font-poppins whitespace-nowrap text-[1.07rem] font-normal leading-normal text-[#263238] max-md:text-lg">
-                + {subscribed}
                 &nbsp;
-                <span>subscribed</span>
+                <span></span>
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="flex w-[85%] flex-col items-start space-y-3 pt-16">
-        <p className="font-poppins text-[0.94rem] font-normal leading-6 text-[#777795] max-md:text-lg">
+        {/* <p className="font-poppins text-[0.94rem] font-normal leading-6 text-[#777795] max-md:text-lg">
         Subscribe for early access
-        </p>
+        </p> */}
         <p className="font-montserrat text-xl font-extrabold tracking-wide text-slate-800 max-md:text-2xl">
           {CourseName}
         </p>

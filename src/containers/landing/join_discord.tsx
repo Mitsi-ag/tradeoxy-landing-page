@@ -9,7 +9,7 @@ const JoinDiscord = () => {
           Be an Early Member.
         </div>
         <div className="flex justify-center">
-        <a href="https://discord.com" target="_blank" rel="noreferrer">
+        <a href="https://discord.gg/2vRM6eZtCw" target="_blank" rel="noreferrer">
 
           <div className="flex items-center justify-center gap-x-6 rounded-2xl border-[2px] border-[#283845] bg-white px-16 py-4 max-sm:px-8">
 

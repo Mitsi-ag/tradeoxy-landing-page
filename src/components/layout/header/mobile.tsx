@@ -25,7 +25,7 @@ const Mobile = () => {
               src="/assets/github.png"
             />
             </a>
-            <a href="https://discord.com" target="_blank" rel="noreferrer">
+            <a href="https://discord.gg/2vRM6eZtCw" target="_blank" rel="noreferrer">
 
             <General.Button.Primary className="!px-6">
               <img

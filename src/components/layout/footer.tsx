@@ -83,27 +83,39 @@ const Footer = () => {
             src="/assets/social/facebook.png"
             className="h-8 w-8 cursor-pointer object-cover"
           /> */}
-          
-          <a href="https://twitter.com/mitaanshu284" target="_blank" rel="noreferrer">
-          <img
-            loading="lazy"
-            src="/assets/social/twitter.png"
-            className="h-8 w-8 cursor-pointer object-cover"
-          />
+
+          <a
+            href="https://twitter.com/mitaanshu284"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              loading="lazy"
+              src="/assets/social/twitter.png"
+              className="h-8 w-8 cursor-pointer object-cover"
+            />
           </a>
-          <a href="https://github.com/jimtin/strategy-builder" target="_blank" rel="noreferrer">
-          <img
-            loading="lazy"
-            src="/assets/social/github.png"
-            className="h-8 w-8 cursor-pointer object-cover"
-          />
+          <a
+            href="https://github.com/jimtin/strategy-builder"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              loading="lazy"
+              src="/assets/social/github.png"
+              className="h-8 w-8 cursor-pointer object-cover"
+            />
           </a>
-          <a href="https://discord.com" target="_blank" rel="noreferrer">
-          <img
-            loading="lazy"
-            src="/assets/social/discord.png"
-            className="h-8 w-8 cursor-pointer object-cover"
-          />
+          <a
+            href="https://discord.gg/2vRM6eZtCw"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              loading="lazy"
+              src="/assets/social/discord.png"
+              className="h-8 w-8 cursor-pointer object-cover"
+            />
           </a>
         </div>
       </div>
@@ -116,12 +128,24 @@ const Footer = () => {
         </div>
         <Logo />
         <div className="flex w-max gap-x-6">
+        <a
+            href="https://tradeoxyassets.blob.core.windows.net/assets/Terms%20and%20Conditions%20v1.1.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
           <div className="font-poppins cursor-pointer text-lg font-medium text-[#283845]">
             Terms of Service
           </div>
-          <div className="font-poppins cursor-pointer text-lg font-medium text-[#283845]">
-            Privacy Policy
-          </div>
+          </a>
+          <a
+            href="https://tradeoxyassets.blob.core.windows.net/assets/Tradeoxy%20Privacy%20Policy%20v1.1.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="font-poppins cursor-pointer text-lg font-medium text-[#283845]">
+              Privacy Policy
+            </div>
+          </a>
         </div>
       </div>
     </div>
