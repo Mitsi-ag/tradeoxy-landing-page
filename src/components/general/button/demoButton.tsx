@@ -9,7 +9,7 @@ const DemoButton = (props: IDemoButtonProps): JSX.Element => {
         <a href={props.link} target="_blank" rel="noopener noreferrer" 
            style={{ backgroundColor: '#31bcb4' }} 
            className="hover:bg-blue-700 text-white font-bold py-3 px-8 rounded inline-block">
-            Demo
+            View Demo
         </a>
     );
 }

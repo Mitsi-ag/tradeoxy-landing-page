@@ -29,8 +29,18 @@ const Banner = () => {
         </div>
         <p className="font-poppins w-[85%] text-[1.375rem] text-[#303030] max-md:w-[90%] max-md:text-center">
           Experience modern trading automation that works seamlessly across all
-          devices.
+          devices. 
+          <a
+            href="https://traderbotdemo.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ backgroundColor: "#31bcb4" }}
+            className="italic"
+          >
+             View Demo Now.
+          </a>
         </p>
+
         <div className="flex w-[70%] max-lg:w-[80%] max-md:w-[90%] max-md:justify-center">
           <DataEntry.Input.Primary
             border="border-[1.5px] border-[#D0D0D0]"
@@ -56,7 +66,8 @@ const Banner = () => {
               10000+
             </div>
             <div className="font-opensans text-base font-normal text-[#969696]">
-              Happy Predicted<br />
+              Happy Predicted
+              <br />
               Customers
             </div>
           </div>
