@@ -1,6 +1,7 @@
 import { General } from "@/components/index";
 import { useState } from "react";
 import Logo from "../../logo";
+import { DemoButton } from "@/components/general/button";
 import { MenuItem } from "./desktop";
 
 const Mobile = () => {
@@ -25,6 +26,8 @@ const Mobile = () => {
               src="/assets/github.png"
             />
             </a>
+            <DemoButton link="https://traderbotdemo.vercel.app/" />
+
             <a href="https://discord.gg/2vRM6eZtCw" target="_blank" rel="noreferrer">
 
             <General.Button.Primary className="!px-6">

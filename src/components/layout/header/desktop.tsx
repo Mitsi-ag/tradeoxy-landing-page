@@ -1,4 +1,5 @@
 import { General } from "@/components/index";
+import { DemoButton } from "@/components/general/button";
 import Logo from "../../logo";
 
 const Desktop = () => {
@@ -9,22 +10,24 @@ const Desktop = () => {
       </div>
       <Logo />
       <div className="flex items-center justify-end gap-x-12 max-sm:hidden">
+        
+        <DemoButton link="https://traderbotdemo.vercel.app/" />
 
         <a href="https://github.com/jimtin/strategy-builder" target="_blank" rel="noreferrer">
-        <img
-          className="h-6 w-auto cursor-pointer object-cover"
-          loading="lazy"
-          src="/assets/github.png"
-        />
+          <img
+            className="h-6 w-auto cursor-pointer object-cover"
+            loading="lazy"
+            src="/assets/github.png"
+          />
         </a>
         <a href="https://discord.gg/2vRM6eZtCw" target="_blank" rel="noreferrer">
-        <General.Button.Primary>
-          <img
-            className="h-6 w-auto scale-105 cursor-pointer object-cover"
-            loading="lazy"
-            src="/assets/discord.png"
-          />
-        </General.Button.Primary>
+          <General.Button.Primary>
+            <img
+              className="h-6 w-auto scale-105 cursor-pointer object-cover"
+              loading="lazy"
+              src="/assets/discord.png"
+            />
+          </General.Button.Primary>
         </a>
       </div>
     </div>
