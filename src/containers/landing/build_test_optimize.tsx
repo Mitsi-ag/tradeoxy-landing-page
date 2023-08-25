@@ -33,7 +33,7 @@ const BuildTestOptimize = () => {
         <div className="absolute right-[-15%] top-[45%] z-10">
           <TagInfo
             image="/assets/discover/indicator.png"
-            text="World class inficators"
+            text="World class indicators"
           />
         </div>
         <div className="absolute right-0 top-[85%] z-10 max-md:top-[95%]">
